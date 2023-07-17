@@ -10,8 +10,14 @@
     <link rel="stylesheet" type="text/css" href="Metropolis/Metropolis-Medium.otf">
     <link rel="stylesheet" type="text/css" href="Metropolis/Metropolis-Bold.otf">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -65,7 +71,7 @@
         <div id="navbar" class="flex justify-center top-0 z-10">
 
             <nav id="thisnav"
-                class="py-5 lg:px-80 md:flex md:items-center md:justify-between w-3/4    lg:w-full z-[1] absolute top-0  ">
+                class="py-5 lg:px-80 md:flex md:items-center md:justify-between w-3/4 lg:w-full z-[1] absolute top-0  ">
                 <div class="flex justify-between items-center ">
                     <span class="cursor-pointer">
                         <img class="h-10 inline" src="assets/Logo.svg">
@@ -327,15 +333,25 @@
                         CTO @ BigSpring</span>
                     <span class="vs:hidden lg:flex w-[964px] h-px bg-[#DEC9FA]"></span>
 
-
-                    <div class="vs:flex vs:flex-col lg:flex lg:flex-row gap-[91px] justify-center items-center">
-                        <img src="assets/Tonkean.svg" alt="">
-                        <img src="assets/BigSpring.svg" alt="">
-                        <img src="assets/Clearbit.svg" alt="">
-                        <img src="assets/Mine.svg" alt="">
-                        <img src="assets/Shake.svg" alt="">
+                    <div class="owl-carousel owl-theme w-[63%]">
+                        <div class="item vs:w-full md:w-1/2">
+                            <img src="assets/Tonkean.svg" class="img-responsive" alt="logo1">
+                        </div>
+                        <div class="item vs:w-full md:w-1/2">
+                            <h4><img src="assets/BigSpring.svg" class="img-responsive" alt="logo2"></h4>
+                        </div>
+                        <div class="item vs:w-full md:w-1/2">
+                            <h4><img src="assets/Clearbit.svg" class="img-responsive" alt="logo3"></h4>
+                        </div>
+                        <div class="item vs:w-full md:w-1/2">
+                            <h4><img src="assets/Mine.svg" class="img-responsive" alt="logo4"></h4>
+                        </div>
+                        <div class="item vs:w-full md:w-1/2">
+                            <h4><img src="assets/Shake.svg" class="img-responsive" alt="logo5"></h4>
+                        </div>
                     </div>
                 </div>
+
             </section>
 
             <section class="flex mb-[120px]  ">
@@ -509,9 +525,13 @@
         </div>
 
     </div>
-
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- link owl carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 

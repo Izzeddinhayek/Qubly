@@ -1,3 +1,21 @@
+$(document).ready(function () {
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+      items: 5,
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      slideTransition: 'linear',
+      autoplayTimeout: 2000,
+      autoplaySpeed: 3000,
+      autoplayHoverPause: false,
+      dotseach: false,
+      dots: false
+
+  });
+
+});
+
 function Menu(e){
     let list = document.querySelector('ul');
     let thisBlur = document.getElementById('myBlur')
@@ -59,8 +77,7 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-
-
+  
 
   
   

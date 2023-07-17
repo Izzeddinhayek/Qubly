@@ -24,9 +24,6 @@
     }
 
   }
-  
-
-
 
 .swiper {
     width: fit-content;
@@ -42,6 +39,10 @@
     border-radius: 8px;
     padding-top: 90px;
   }
+
+  
+
+  
 
   /* .swiper-button-prev:hover,.swiper-button-next:hover {
     color: black;

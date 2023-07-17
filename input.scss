@@ -1,0 +1,36 @@
+$font-stack: 'Metropolis', sans-serif;
+$primary-color: #F9F0FF;
+$text-color: #722ED1;
+
+%shared{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-sec{
+    @extend %shared;
+
+    .product-sec{
+        font: $font-stack;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        
+        button {
+            display: flex;
+            justify-content: space-between;
+            background-color: $primary-color;
+            text-align: center;
+            border: none;
+            span {
+                font-weight: 500;
+                color: $text-color;
+            }
+        }
+     }
+}
+
+

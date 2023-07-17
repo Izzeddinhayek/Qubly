@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url(Metropolis/Metropolis-Medium.otf) format('otf'), ;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url(Metropolis/Metropolis-Bold.otf) format('otf'), ;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media (min-width: 1050px) {
+    #cut {
+      clip-path: polygon(100% 0, 100% 85%, 0% 100%, 0 0%);
+    }
+
+    #sec-poly {
+        clip-path: polygon(100% 0, 100% 80%, 0% 100%, 0 20%);
+    }
+
+  }
+  
+
+
+
+.swiper {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  
+  .swiper-button-prev,.swiper-button-next {
+    color: black;
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-color: black;
+    border-radius: 8px;
+    padding-top: 90px;
+  }
+
+  /* .swiper-button-prev:hover,.swiper-button-next:hover {
+    color: black;
+    --swiper-navigation-size: 20px;
+    --swiper-navigation-color: black;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 8px;
+
+  } */
+
+  .swiper-button-next {
+    margin-left: -20px;
+  }
+  .swiper-button-prev {
+    padding-right: 20px;
+  }
+
+
+/* header {
+    width: 100%;
+    height: 696px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 111px;
+    background: url(assets/BG.png)  ;
+
+} */
+/* .nav {
+    width: 960px;
+    height: 53px;
+    margin-top: 19px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .my-page {
+    width: 100%;
+    height: 100%;
+} */
+/* .page-info {
+    color: black;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    cursor: pointer;
+
+} */
+
+/* button {
+    color: #722ED1;
+    font-family: 'Metropolis', sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #722ED1;
+    border-radius: 23px;
+    background: transparent;
+    padding: 8px 17px;
+    cursor: pointer;
+} */
+
+
+
+.arrow-icon {
+    color: black;
+    height: 4px;
+    width: 8px;
+}
+
+/* .hero-info h1 {
+    padding-top: 10px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+
+/* .hero-row {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    height: 370px;
+} */
+
+/* .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-info > p {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.5;
+} */
+/* .hero-buttons {
+    display: flex;
+    gap: 16px
+} */
+
+/* .button-start {
+    color: #fff;
+    font-family: 'Metropolis', sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #722ED1;
+    border-radius: 23px;
+    background: #722ED1;
+    padding: 8px 17px;
+    cursor: pointer;
+
+} */
+
+
+/* footer {
+    width: 100%;
+    height: 400px;
+    background-color: #FBFCFF;
+} */
+
+/* .utilities {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 58px 252px 59px 240px;
+
+} */
+
+/* .utility-link {
+    color: #160637;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+} */
+
+/* .utility-link-light {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.utility-link-bold {
+    color: #160637;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+
+/* .utility-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+} */
+/* 
+.utility-columns a {
+    text-decoration: none;
+} */
+
+/* .utility-columns input {
+    width: 188px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: white;
+    border: none;
+    background: url(assets/Icon\ ionic-ios-send.png) no-repeat scroll right;   
+    
+} */
+/* 
+.utility-columns input:hover {
+    border: 2px solid #722ED1;
+    cursor: pointer;
+    border-radius: 5px;
+} */

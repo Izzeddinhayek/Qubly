@@ -1,27 +1,26 @@
 .third-sec {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.third-sec .product-sec {
+.product-sec {
   font: "Metropolis", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
 }
-.third-sec .product-sec button {
+.product-sec button {
   display: flex;
   justify-content: space-between;
   background-color: #F9F0FF;
   text-align: center;
   border: none;
 }
-.third-sec .product-sec button span {
+.product-sec button span {
   font-weight: 500;
   color: #722ED1;
-}
-
-/*# sourceMappingURL=input.css.map */
+}/*# sourceMappingURL=input.css.map */

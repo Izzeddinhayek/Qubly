@@ -14,15 +14,16 @@
     font-display: swap;
 }
 
+
+
 @media (min-width: 1050px) {
-    #cut {
+    #first-poly {
       clip-path: polygon(100% 0, 100% 85%, 0% 100%, 0 0%);
     }
 
     #sec-poly {
-        clip-path: polygon(100% 0, 100% 80%, 0% 100%, 0 20%);
+        clip-path: polygon(100% 0, 100% 76%, 0% 90%, 0 16%);
     }
-
   }
 
 .swiper {

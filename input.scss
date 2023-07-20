@@ -10,27 +10,31 @@ $text-color: #722ED1;
 }
 
 .third-sec{
-    @extend %shared;
-
-    .product-sec{
-        font: $font-stack;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-        
-        button {
-            display: flex;
-            justify-content: space-between;
-            background-color: $primary-color;
-            text-align: center;
-            border: none;
-            span {
-                font-weight: 500;
-                color: $text-color;
-            }
-        }
-     }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+.product-sec{
+    font: $font-stack;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    
+    button {
+        display: flex;
+        justify-content: space-between;
+        background-color: $primary-color;
+        text-align: center;
+        border: none;
+        
+        span {
+            font-weight: 500;
+            color: $text-color;
+        }
+    }
+ }
 
 
